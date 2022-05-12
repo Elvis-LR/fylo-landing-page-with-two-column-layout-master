@@ -1,47 +1,79 @@
-    /**** R E S E T  start****/
+/**** R E S E T  start****/
 *:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
-all: unset;
-display: revert;
+  all: unset;
+  display: revert;
 }
 *,
 *::before,
 *::after {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-a, button {
-cursor: revert;
+a,
+button {
+  cursor: revert;
 }
-ol, ul, menu {
-list-style: none;
+ol,
+ul,
+menu {
+  list-style: none;
 }
 img {
-max-width: 100%;
+  max-width: 100%;
 }
 table {
-border-collapse: collapse;
+  border-collapse: collapse;
 }
 textarea {
-white-space: revert;
+  white-space: revert;
 }
 meter {
--webkit-appearance: revert;
-appearance: revert;
+  -webkit-appearance: revert;
+  appearance: revert;
 }
 ::placeholder {
-color: unset;
+  color: unset;
 }
 :where([hidden]) {
-display: none;
+  display: none;
 }
 :where([contenteditable]) {
--moz-user-modify: read-write;
--webkit-user-modify: read-write;
-overflow-wrap: break-word;
--webkit-line-break: after-white-space;
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
 }
-:where([draggable=
-true
-]) {
--webkit-user-drag: element;
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
 }
-    /**** R E S E T  end****/
+/**** R E S E T  end****/
+
+/**** STYLE GUIDE
+    
+### Headings, Call-to-actions, Header Navigation
+    font-family: 'Raleway', sans-serif;
+
+### Body
+    font-family: 'Open Sans', sans-serif;
+
+    ## Colors----------------------------------------------
+
+### Primary
+
+- Very Dark Blue: hsl(243, 87%, 12%)
+- Desaturated Blue: hsl(238, 22%, 44%)
+
+### Accent
+
+- Bright Blue: hsl(224, 93%, 58%)
+- Moderate Cyan: hsl(170, 45%, 43%)
+
+### Neutral
+
+- Light Grayish Blue: hsl(240, 75%, 98%)
+- Light Gray: hsl(0, 0%, 75%)
+
+
+
+
+
+    ****/
