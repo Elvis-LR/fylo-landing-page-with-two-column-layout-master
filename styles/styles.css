@@ -73,7 +73,10 @@ meter {
 - Light Gray: hsl(0, 0%, 75%)
 
 
-
-
-
     ****/
+
+/********* MOBILE ************/
+body {
+  width: 23.4375rem;
+  font-family: "Open Sans", sans-serif;
+}
