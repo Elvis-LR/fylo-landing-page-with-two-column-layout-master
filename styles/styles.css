@@ -51,9 +51,11 @@ meter {
     
 ### Headings, Call-to-actions, Header Navigation
     font-family: 'Raleway', sans-serif;
+    Weights: 400, 700
 
 ### Body
     font-family: 'Open Sans', sans-serif;
+     Weights: 400
 
     ## Colors----------------------------------------------
 
@@ -77,6 +79,28 @@ meter {
 
 /********* MOBILE ************/
 body {
-  width: 23.4375rem;
   font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+#wrapper {
+  width: 23.4375rem;
+  margin-top: 3rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: hsl(238, 22%, 44%);
+}
+.logo {
+  width: 7.25rem;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  margin-left: 1.5rem;
 }
