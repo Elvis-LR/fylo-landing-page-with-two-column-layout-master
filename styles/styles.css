@@ -87,6 +87,10 @@ body {
   width: 23.4375rem;
   margin-top: 3rem;
 }
+
+
+
+/************** LOGO/////NAV ****************/
 nav {
   display: flex;
   justify-content: space-between;
@@ -103,4 +107,16 @@ nav ul {
 }
 nav li {
   margin-left: 1.5rem;
+}
+
+/******************* HERO ******************/
+.hero{
+  margin-top: 7.75rem;
+}
+.hero-text{
+  margin-top: 4.5rem;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
