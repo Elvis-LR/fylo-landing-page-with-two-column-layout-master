@@ -127,7 +127,7 @@ h1 {
   font-weight: 700;
   font-size: 2.2rem;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -139,13 +139,14 @@ input {
   font-size: 1rem;
   padding: 1rem;
 }
-.input-email{
+.input-email {
   text-align: start;
 }
-.input-summit{
+button {
+  padding: 1rem;
+  border-radius: 0.3rem;
   color: hsl(0, 0%, 100%);
   background: hsl(224, 93%, 58%);
   font-weight: 700;
-  border: none;
   box-shadow: 1px 3px 5px 0px hsl(238, 22%, 44%, 0.5);
 }
