@@ -80,12 +80,16 @@ meter {
 /********* MOBILE ************/
 body {
   font-family: "Open Sans", sans-serif;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   text-align: center;
   font-size: 1.4rem;
 }
+
 #wrapper {
+  width: 33.875rem;
+}
+.container {
   width: 33.875rem;
   padding: 2rem;
 }
@@ -100,12 +104,15 @@ nav {
   font-weight: 400;
   color: hsl(238, 22%, 44%);
 }
+
 .logo {
   width: 7.25rem;
 }
+
 nav ul {
   display: flex;
 }
+
 nav li {
   margin-left: 1.5rem;
 }
@@ -117,21 +124,25 @@ nav li {
   flex-direction: column;
   gap: 4rem;
 }
+
 .hero-text {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
+
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 2.2rem;
 }
+
 form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
+
 input {
   border: 1px solid hsl(238, 22%, 44%);
   border-radius: 0.3rem;
@@ -139,9 +150,11 @@ input {
   font-size: 1rem;
   padding: 1rem;
 }
+
 .input-email {
   text-align: start;
 }
+
 button {
   padding: 1rem;
   border-radius: 0.3rem;
@@ -150,3 +163,16 @@ button {
   font-weight: 700;
   box-shadow: 1px 3px 5px 0px hsl(238, 22%, 44%, 0.5);
 }
+
+/*************** MAAIN SECTION ***********/
+
+main {
+  margin-top: 8.125rem;
+  background-color: hsl(240, 75%, 98%);
+}
+
+/* .curve-bg {
+  background-image: url(../images/bg-curve-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
