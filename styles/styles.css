@@ -167,7 +167,11 @@ button {
 /*************** MAAIN SECTION ***********/
 
 main {
-  margin-top: 8.125rem;
   background-color: hsl(240, 75%, 98%);
+}
+.curve-img img{
+  margin-top: 8.125rem;
+  width: 100%;
+  display: block;
 }
 
