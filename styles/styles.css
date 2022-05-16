@@ -167,38 +167,56 @@ button {
 
 /*************** MAAIN SECTION ***********/
 
-
-.curve-img img{
+.curve-img img {
   margin-top: 6.125rem;
   width: 100%;
   display: block;
 }
 
-main > .container{
+main > .container {
   background-color: hsl(240, 75%, 98%);
-
 }
 
-.img-main{
+.img-main {
   margin-top: 2rem;
 }
 
-.main-text{
+.main-text {
   margin-top: 8rem;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
 }
-h2{
-  font-family: 'Raleway', sans-serif;
+h2 {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1.6rem;
   color: hsl(243, 87%, 12%);
 }
 
-.main-text p{
+.main-text p {
   text-align: start;
   color: hsl(238, 22%, 44%);
   font-size: 1.3rem;
 }
 
+.fylo-works {
+  display: flex;
+  justify-content: center;
+}
+
+.fylo-works a {
+  color: hsl(170, 45%, 43%);
+  font-size: 1.1rem;
+}
+
+.fylo-works img {
+  margin-left: 1rem;
+  width: 1.5rem;
+}
+
+.works {
+  display: flex;
+  border-bottom: 2px solid hsl(170, 45%, 43%);
+  padding-bottom: 0.5rem;
+}
