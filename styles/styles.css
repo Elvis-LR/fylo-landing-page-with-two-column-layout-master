@@ -247,3 +247,8 @@ h2 {
   width: 2rem;
   border-radius: 50%;
 }
+
+.user::first-child{
+  font-size: 3rem;
+  font-weight: 700;
+}
