@@ -247,9 +247,9 @@ h2 {
 .avatar img {
   width: 2.5rem;
   border-radius: 50%;
-  margin-right: 0.5rem; 
+  margin-right: 0.5rem;
 }
- 
+
 .comment-quote .user {
   font-size: 0.9rem;
   font-weight: 700;
@@ -260,4 +260,36 @@ h2 {
   font-size: 0.6rem;
   color: hsl(243, 87%, 12%);
 }
+
+/************** SIGN-UP ***********/
+
+.sign-up {
+  background-color: hsl(238, 22%, 44%);
+  color: hsl(0, 0%, 100%);
+  padding: 5.25rem 2.6rem;
+}
+
+.sign-up h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.sign-up p {
+  margin: 1.5rem 0rem;
+}
+
+.sign-up form{
+  gap: 0.7rem;
+}
+
+.sign-up input {
+  background-color: hsl(240, 75%, 98%);
+}
+
+.sign-up button{
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+/************* FOOTER *************/
+
 
