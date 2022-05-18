@@ -292,4 +292,9 @@ h2 {
 
 /************* FOOTER *************/
 
-
+footer{
+  background-color: hsl(243, 87%, 12%);
+  color: hsl(0, 0%, 100%);
+  padding: 6rem 3.5rem;
+  text-align: start;
+}
