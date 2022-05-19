@@ -277,7 +277,7 @@ h2 {
   margin: 1.5rem 0rem;
 }
 
-.sign-up form{
+.sign-up form {
   gap: 0.7rem;
 }
 
@@ -285,14 +285,14 @@ h2 {
   background-color: hsl(240, 75%, 98%);
 }
 
-.sign-up button{
+.sign-up button {
   font-size: 0.9rem;
   font-weight: 400;
 }
 
 /************* FOOTER *************/
 
-footer{
+footer {
   background-color: hsl(243, 87%, 12%);
   color: hsl(0, 0%, 100%);
   padding: 6rem 3.5rem;
@@ -302,23 +302,44 @@ footer{
   gap: 4rem;
 }
 
-footer>img{
+footer > img {
   filter: brightness(0) invert(1);
-  width:15.875rem;
+  width: 15.875rem;
 }
 
-.info div{
-display: flex;
-align-items: center;
+.info div {
+  display: flex;
+  align-items: center;
 }
 
-.info div img{
+.info div img {
   margin-right: 2.5rem;
 }
 
-footer ul{
+footer ul {
   margin-bottom: 4rem;
 }
-footer li{
+
+footer li {
   margin-bottom: 1rem;
+}
+
+.socials ul {
+  display: flex;
+  justify-content: center;
+}
+
+.socials ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.socials svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: hsl(0, 0%, 100%);
 }
