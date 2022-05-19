@@ -315,3 +315,10 @@ align-items: center;
 .info div img{
   margin-right: 2.5rem;
 }
+
+footer ul{
+  margin-bottom: 4rem;
+}
+footer li{
+  margin-bottom: 1rem;
+}
