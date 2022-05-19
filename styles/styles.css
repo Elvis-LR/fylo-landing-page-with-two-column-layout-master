@@ -310,6 +310,7 @@ footer > img {
 .info div {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .info div img {
@@ -327,6 +328,7 @@ footer li {
 .socials ul {
   display: flex;
   justify-content: center;
+
 }
 
 .socials ul li {
@@ -336,6 +338,7 @@ footer li {
   border: 1.5px solid hsl(0, 0%, 100%);
   border-radius: 50%;
   padding: 0.5rem;
+  margin-right: 1rem;
 }
 
 .socials svg {
