@@ -297,9 +297,21 @@ footer{
   color: hsl(0, 0%, 100%);
   padding: 6rem 3.5rem;
   text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 footer>img{
   filter: brightness(0) invert(1);
   width:15.875rem;
+}
+
+.info div{
+display: flex;
+align-items: center;
+}
+
+.info div img{
+  margin-right: 2.5rem;
 }
