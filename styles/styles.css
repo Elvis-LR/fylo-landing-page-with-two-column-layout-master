@@ -298,3 +298,8 @@ footer{
   padding: 6rem 3.5rem;
   text-align: start;
 }
+
+footer>img{
+  filter: brightness(0) invert(1);
+  width:15.875rem;
+}
