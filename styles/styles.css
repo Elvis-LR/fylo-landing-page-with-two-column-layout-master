@@ -146,13 +146,14 @@ form {
 
 input {
   border: 1px solid hsl(238, 22%, 44%);
+  color: hsl(243, 87%, 12%);
   border-radius: 0.3rem;
   font-size: 1rem;
   padding: 1rem;
 }
 
-::placeholder{
-   color: hsl(0, 0%, 75%);
+::placeholder {
+  color: hsl(0, 0%, 75%);
 }
 
 .input-email {
@@ -331,7 +332,6 @@ footer li {
 .socials ul {
   display: flex;
   justify-content: center;
-
 }
 
 .socials ul li {
@@ -350,7 +350,4 @@ footer li {
   fill: hsl(0, 0%, 100%);
 }
 
-
 /********** HOVER, ACTIVE ***********/
-
-
