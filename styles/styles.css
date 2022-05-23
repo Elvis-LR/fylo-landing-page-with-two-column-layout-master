@@ -333,6 +333,10 @@ footer li {
   margin-bottom: 1rem;
 }
 
+.links ul li a:hover{
+  color: hsl(243, 37%, 53%);
+}
+
 .socials ul {
   display: flex;
   justify-content: center;
