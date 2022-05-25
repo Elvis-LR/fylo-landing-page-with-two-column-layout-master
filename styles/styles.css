@@ -152,6 +152,7 @@ input {
   padding: 1rem;
 }
 
+
 ::placeholder {
   color: hsl(0, 0%, 75%);
 }
@@ -370,4 +371,19 @@ button:hover {
 .socials svg:hover {
   border: 1.5px solid hsl(224, 94%, 81%);
   fill: hsl(224, 94%, 81%);
+}
+
+
+/************* DEKSTOP **************/
+
+@media screen and (min-width: 68.75rem){
+
+  #wrapper{
+    width: 1440px;
+  }
+  
+  .container{
+    width: 1440px;
+  }
+  
 }
