@@ -404,5 +404,8 @@ button:hover {
     padding: 1rem 5rem;
   }
 
+  .hero h1{
+    font-size: 3rem;
+  }
   
 }
