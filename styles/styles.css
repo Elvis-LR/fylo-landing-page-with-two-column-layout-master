@@ -396,30 +396,7 @@ button:hover {
   .hero form input {
     flex: 1;
   }
-  /***********************/
-  .malo {
-    display: none;
-    font-size: 1rem;
-    color: rgb(0, 89, 255);
-    margin-top: -1.5rem;
-  }
 
-  input:invalid {
-    border-color: red;
-  }
-
-  input:not(:focus):invalid ~ .malo {
-    display: block;
-    font-size: 1rem;
-    color: rgb(206, 2, 2);
-    margin-top: -1.5rem;
-  }
-
-  input:valid {
-    border-color: green;
-  }
-
-  /***************************/
   .hero button {
     padding: 1rem 5rem;
   }
