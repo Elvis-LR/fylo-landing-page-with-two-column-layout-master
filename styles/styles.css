@@ -430,4 +430,18 @@ button:hover {
     margin: 0;
     width: 25rem;
   }
+
+  .sign-up{
+    display: flex;
+    align-items: center;
+  }
+
+  .sign-up-info{
+    text-align: start;
+    flex: 1;
+  }
+
+  .sign-up-inputs{
+    flex: 1 1 0;
+  }
 }
