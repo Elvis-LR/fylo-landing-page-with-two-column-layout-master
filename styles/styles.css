@@ -420,4 +420,8 @@ button:hover {
   h2{
     font-size: 2.3rem;
   }
+
+  .fylo-works{
+    justify-content: start;
+  }
 }
