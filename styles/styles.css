@@ -408,6 +408,7 @@ button:hover {
   main>.container{
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
     column-gap: 2rem;
     padding: 5rem;
   }
