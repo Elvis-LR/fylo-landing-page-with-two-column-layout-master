@@ -424,4 +424,9 @@ button:hover {
   .fylo-works{
     justify-content: start;
   }
+
+  .comment-quote{
+    margin: 0;
+    width: 25rem;
+  }
 }
