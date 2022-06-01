@@ -117,6 +117,12 @@ nav li {
   margin-left: 1.5rem;
 }
 
+nav li:hover{
+  color: hsl(237, 24%, 17%);
+  box-shadow: 0px 1px 0px 0px hsl(238, 22%, 44%, 0.5);
+  transition: ease-in-out;
+}
+
 /******************* HERO ******************/
 .hero {
   margin-top: 7.75rem;
