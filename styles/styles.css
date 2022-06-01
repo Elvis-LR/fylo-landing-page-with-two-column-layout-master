@@ -311,6 +311,10 @@ footer > img {
   width: 15.875rem;
 }
 
+.info {
+  margin-bottom: 4rem;
+}
+
 .info div {
   display: flex;
   align-items: center;
@@ -405,7 +409,7 @@ button:hover {
     font-size: 3rem;
   }
 
-  main>.container{
+  main > .container {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -413,42 +417,48 @@ button:hover {
     padding: 5rem;
   }
 
-  .main-text{
+  .main-text {
     margin-top: 0rem;
     text-align: start;
   }
 
-  h2{
+  h2 {
     font-size: 2.3rem;
   }
 
-  .fylo-works{
+  .fylo-works {
     justify-content: start;
   }
 
-  .comment-quote{
+  .comment-quote {
     margin: 0;
     width: 25rem;
   }
 
-  .sign-up{
+  .sign-up {
     display: flex;
     align-items: center;
     padding: 5rem;
   }
 
-  .sign-up-info{
+  .sign-up-info {
     text-align: start;
     flex: 1;
-    padding:  0rem 2rem;
+    padding: 0rem 2rem;
   }
 
-  .sign-up-inputs{
+  .sign-up-inputs {
     flex: 1 1 0;
-    padding:  0rem 2rem;
+    padding: 0rem 2rem;
   }
 
-  .sign-up-inputs button{
+  .sign-up-inputs button {
     width: 20rem;
-  };
+  }
+
+  .links {
+    display: flex;
+    gap: 8rem;
+  }
+
 }
