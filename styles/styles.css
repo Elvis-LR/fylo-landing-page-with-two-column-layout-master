@@ -407,6 +407,11 @@ button:hover {
     flex: 1;
   }
 
+  span{
+    color: red;
+    display: none;
+  }
+
   .hero button {
     padding: 1rem 5rem;
   }
